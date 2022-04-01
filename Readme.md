@@ -1,9 +1,9 @@
-# Lab esperienza 1
+# Lab experience 1
 
 - FILE NAME: LYSO3.dst ID 300
 - FILE NAME: LYSO4.dst ID 400
 
-Misurazione di 200 keV o 300 keV e decadimento beta dentro il LYSO
+Measurements of 200 keV or 300 keV and beta decay in the LYSO
 
 ## Oscilloscope channels
 
@@ -30,14 +30,14 @@ Trigger pattern = AND
 
 - FILE NAME Co2_1.dst ID 400
 
-Calibrazione degli scintillatori NaI con sorgente Co 60
+Calibration of NaI scintillators with Co 60 source
 
 | Channel  |  Y scale  | Trigger   |  Threshold |
 |----------|-----------|-----------|------------|
 |     1    |   2 mV    | No        |            |
 |     2    |   2 mV    | NegEdge   |   -2 mV    | (Veto)
-|     3    |   50 mV   | NegEdge   |    -5 mV   |
-|     4    |   50 mV   | NegEdge   |    -5 mV   |
+|     3    |   50 mV   | NegEdge   |   -5 mV    |
+|     4    |   50 mV   | NegEdge   |   -5 mV    |
 
 Trigger Pattern (~no.2 ) & (no. 3) & (no. 4)
 
@@ -46,7 +46,7 @@ Trigger Pattern (~no.2 ) & (no. 3) & (no. 4)
 
 - FILE NAME: Co2_2.dst ID 500
 
-Calibrazione del cristallo di LYSO con sorgente C0 60
+Calibration of the LYSO crystal with Co 60 source
 
 | Channel  |  Y scale  | Trigger   |  Threshold |
 |----------|-----------|-----------|------------|
@@ -62,9 +62,9 @@ Trigger	Pattern	(no.2 ) & (~no. 3) & (no. 4)
 
 - FILE NAME: Na2_1.dst
 
-Calibrazione con sorgente Na22
-LYSO deve vedere 1200 keV
-La sorgente sta tra i due NaI
+Calibration with Na22 source
+LYSO should see 1200 keV
+The source is between the two NaI
 
 
 | Channel  |  Y scale  | Trigger   |  Threshold |
@@ -81,8 +81,8 @@ Trigger Pattern : (no.2 ) & (no. 3) & (no. 4)
 
 - FILE NAME : Na2_2.dst
 
-Calibrazione dei PMT
-NaI1 (ch.3) deve vedere il 1200 keV mentre NaI2 e LYSO devono vedere i due fotoni a 511 keV
+Calibration of PMTs
+NaI1 (ch.3) should see 1200 keV while NaI2 and LYSO should see the two photons at 511 keV
 
 | Channel  |  Y scale  | Trigger   |  Threshold |
 |----------|-----------|-----------|------------|
@@ -97,7 +97,7 @@ Trigger Pattern : (no.2 ) & (no. 3) & (no. 4)
 
  - FILE NAME : LYSO5
 
-Background LYSO senza sorgenti 
+Background LYSO sewithout sources
 
 | Channel  |  Y scale  | Trigger   |  Threshold |
 |----------|-----------|-----------|------------|
@@ -112,7 +112,7 @@ Trigger Pattern : (no.2 ) & (~no. 3) & (~no. 4)
 
 -- FILE NAME : CS2
 
-Misura dello spettro gamma del Cs 137. Misura da fare dopo la calibrazione.
+Measurement of the spectrum of the gamma of Cs 137. Measurement to do after the calibration.
 
 | Channel  |  Y scale  | Trigger   |  Threshold |
 |----------|-----------|-----------|------------|
@@ -127,7 +127,7 @@ Trigger Pattern : (no.2 ) & (~no. 3) & (~no. 4)
 
 - FILE NAME : LYSO6
 
-Misura di fondo
+Background measurement
 
 | Channel  |  Y scale  | Trigger   |  Threshold |
 |----------|-----------|-----------|------------|
